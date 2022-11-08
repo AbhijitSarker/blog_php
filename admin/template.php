@@ -8,7 +8,27 @@
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-
+                        <?php
+                            if(isset($view)){
+                                if($view=="dashboard"){
+                                    include("view/dash_view.php");
+                                }elseif($view=="add_page"){
+                                    include("view/add_page_view.php");
+                                }elseif($view=="manage_page"){
+                                    include("view/manage_page_view.php");
+                                }elseif($view=="add_category"){
+                                    include("view/add_cat_view.php");
+                                }elseif($view=="manage_category"){
+                                    include("view/manage_category_view.php");
+                                }
+                            }
+                                
+                                
+                                
+                        
+                                
+                            
+                        ?>
                     </div>
                 </main>
                 <?php include_once("includes/footer.php")?>
