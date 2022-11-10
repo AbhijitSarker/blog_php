@@ -26,7 +26,9 @@
             }
 
             if($admin_info){
-                header("loacation:dashboard.php");
+                 header("location: dashboard.php");
+                echo "hi";
+               
             }
         }
 

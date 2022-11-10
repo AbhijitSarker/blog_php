@@ -30,9 +30,6 @@
                                                 <label class="small mb-1" for="inputPassword">Password</label>
                                                 <input name="admin_pass" class="form-control py-4" id="inputPassword" type="password" placeholder="Enter password" />
                                             </div>
-                                            <div class="form-group">
-                                                
-                                            </div>
                                             <div class="form-group d-flex align-items-center justify-content-between mt-4 mb-0">
                                                 <input type="submit" value="Log In" name="admin_login" class="btn btn-success">
                                                 
