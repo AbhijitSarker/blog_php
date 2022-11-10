@@ -26,9 +26,12 @@
             }
 
             if($admin_info){
-                 header("location: dashboard.php");
-                echo "hi";
-               
+                header("location: dashboard.php");
+                $admin_data = mysqli_fetch_assoc($admin_info);
+                session_start();
+                $_SESSION['adminID'] = $admin_data['id'];
+                $_SESSION['admin_name'] = $admin_data['admin_name'];
+                
             }
         }
 

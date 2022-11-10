@@ -1,4 +1,5 @@
 <?php 
+
     include("class/function.php");
     $obj = new AdminBlog();
 
@@ -6,7 +7,14 @@
         $obj->admin_login($_POST);
     }
 
+    session_start();
+    if(isset($_SESSION['adminID'])){
+        $id = $_SESSION['adminID'];
+    }
 
+    if($id){
+        header("location: dashboard.php");
+    }
 ?>
 
 <?php include_once("includes/head.php")?>
