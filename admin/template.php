@@ -19,7 +19,7 @@
                                 }elseif($view=="add_category"){
                                     include("view/add_cat_view.php");
                                 }elseif($view=="manage_category"){
-                                    include("view/manage_category_view.php");
+                                    include("view/manage_cat_view.php");
                                 }
                             }
                                 
