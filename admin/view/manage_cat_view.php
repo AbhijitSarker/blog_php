@@ -1,1 +1,1 @@
-<h2>Manage Category</h2>
+<h1>Manage Category</h1>

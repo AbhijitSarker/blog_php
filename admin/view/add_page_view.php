@@ -1,1 +1,1 @@
-<h2>Add Page</h2>
+<h1>Add Page</h1>
