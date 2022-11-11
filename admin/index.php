@@ -15,6 +15,8 @@
     if($id){
         header("location: dashboard.php");
     }
+
+    
 ?>
 
 <?php include_once("includes/head.php")?>
