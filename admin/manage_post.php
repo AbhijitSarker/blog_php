@@ -1,4 +1,3 @@
 <?php
-    $view = "manage_page";
+    $view = "manage_post";
     include("template.php");
-?>

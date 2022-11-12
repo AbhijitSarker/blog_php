@@ -1,4 +1,3 @@
 <?php
-    $view = "add_page";
+    $view = "add_post";
     include("template.php");
-?>
