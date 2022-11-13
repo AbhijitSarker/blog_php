@@ -21,7 +21,7 @@ if (isset($_POST['add_post'])) {
     </div>
     <div class="form-group">
         <label class="mb-1" for="post_content">Post Content</label>
-        <textarea name="post_content" id="post_content" class="form-control" cols="30" rows="10"></textarea>
+        <textarea name="post_content" id="post_content" class="form-control" cols="30" rows="5"></textarea>
     </div>
     <div class="form-group">
         <label class="mb-1" for="post_img">Upload Thumbnail</label> <br>
@@ -36,7 +36,7 @@ if (isset($_POST['add_post'])) {
         </select>
     </div>
     <div class="form-group">
-        <label class="mb-1" for="cat_des">Post Summery</label>
+        <label class="mb-1" for="post_summery">Post Summery</label>
         <input name="post_summery" class="form-control py-4" id="post_summery" type="text" />
     </div>
     <div class="form-group">
